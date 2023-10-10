@@ -1,11 +1,33 @@
 import "../Styles/LandingPage.css";
 import Navbar from "../Components/Navbar";
 import HeroPic from "../assets/images/HeroPic.JPG";
+import SideNavbar from "../Components/SideNavbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 export default function LandingPage() {
+  const [sideNavVisible, setSideNavVisible] = useState(false);
+  const handleSideNav = function toggle() {
+    if (sideNavVisible == false) {
+      setSideNavVisible(true);
+      console.log("True");
+    } else if (sideNavVisible == true) {
+      setSideNavVisible(false);
+      console.log("True");
+    }
+  };
+
   return (
-    <div>
+    <>
+      <FontAwesomeIcon
+        className="navIcon"
+        onClick={handleSideNav}
+        icon={faBars}
+        size="2xl"
+      />
       <Navbar />
+      {sideNavVisible ? <SideNavbar /> : ""}
       <div className="landingMain">
         <div className="intro">
           <h3>Urusha Dahal</h3>
@@ -23,6 +45,6 @@ export default function LandingPage() {
           <img className="heropic" src={HeroPic} alt=""></img>
         </div>
       </div>
-    </div>
+    </>
   );
 }

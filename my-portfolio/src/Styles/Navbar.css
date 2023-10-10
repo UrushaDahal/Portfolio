@@ -1,0 +1,36 @@
+.navbar {
+  visibility: hidden;
+  text-decoration: none;
+}
+
+.navContainer {
+  display: none;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .navContainer {
+    display: inline;
+  }
+  .navIcon {
+    display: none;
+  }
+
+  li {
+    display: inline;
+    text-decoration: none;
+    padding-right: 3em;
+  }
+  .navbar {
+    color: #ffaf00;
+    font-weight: bolder;
+    height: 5%;
+    display: flex;
+    visibility: visible;
+  }
+}
