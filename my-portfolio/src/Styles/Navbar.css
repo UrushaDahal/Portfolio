@@ -21,11 +21,17 @@ li {
     display: none;
   }
 
-  li {
+  a:link {
+    color: #ffaf00;
     display: inline;
     text-decoration: none;
-    padding-right: 3em;
+    padding-right: 4em;
   }
+
+  .navItems {
+    color: #ffaf00;
+  }
+
   .navbar {
     color: #ffaf00;
     font-weight: bolder;
