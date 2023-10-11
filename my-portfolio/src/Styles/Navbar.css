@@ -21,11 +21,11 @@ li {
     display: none;
   }
 
-  a:link {
+  a {
     color: #ffaf00;
     display: inline;
     text-decoration: none;
-    padding-right: 4em;
+    padding-right: 2.5em;
   }
 
   .navItems {

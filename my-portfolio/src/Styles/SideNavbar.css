@@ -4,7 +4,7 @@ li {
 }
 
 .sideNav {
-  background-color: #ffaf00;
+  background-color: rgb(30, 31, 31);
   opacity: 0.8;
   border-radius: 0px 0px 0px 0px;
   position: absolute;
@@ -12,8 +12,9 @@ li {
   height: 500px;
   width: 250px;
 }
-.sideNavItems {
-  color: #d34a24;
+a {
+  text-decoration: none;
+  color: #ffaf00;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;

@@ -29,7 +29,20 @@ body {
   padding: 0px 10px 0px 10px;
 }
 
+.mainHeading {
+  color: #ffaf00;
+}
+.name {
+  color: #f4ddb5;
+}
+
 @media (min-width: 768px) {
+  .name {
+    color: #f4ddb5;
+  }
+  .mainHeading {
+    color: #ffaf00;
+  }
   .landingMain {
     background: rgb(11, 11, 11);
     display: flex;
