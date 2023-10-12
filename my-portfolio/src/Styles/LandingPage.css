@@ -13,7 +13,7 @@ body {
 .navIcon {
   display: block;
   color: #ffaf00;
-  padding: 1em;
+  padding: 1em 0em 0em 1em;
 }
 
 .heropic {

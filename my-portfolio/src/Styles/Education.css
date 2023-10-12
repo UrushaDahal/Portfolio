@@ -1,3 +1,69 @@
-h1 {
-  color: chocolate;
+.edContainer {
+  background-color: #ffaf00;
+  position: relative;
+}
+
+.educationContainer {
+  background-color: #ffaf00;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0vw 5vw 0vw 5vw;
+}
+
+.educationContainer > div {
+  height: 60vh;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.8;
+  margin-bottom: 10vh;
+}
+
+.educationHeading {
+  font-size: 50px;
+  color: beige;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.bachelors {
+  height: 50vh;
+}
+
+.gradIcon {
+  position: absolute;
+  top: 3.5%;
+  left: 73%;
+  transform: translateX(-50%) translateY(-50%);
+  rotate: 45deg;
+  height: 80px;
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .educationContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0vw 5vw 0vw 5vw;
+  }
+
+  .educationHeading {
+    padding-top: 5vh;
+    margin-bottom: 10vh;
+  }
+}
+
+@media (min-width: 1045px) {
+  .educationContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0vw 5vw 0vw 5vw;
+  }
+
+  .educationHeading {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
 }
