@@ -1,0 +1,11 @@
+.projectContainer {
+  background-color: white;
+  color: black;
+}
+
+.projectDescription {
+  margin-top: 10px;
+  background-color: #f1efef;
+  color: black;
+  border-radius: 10px;
+}
