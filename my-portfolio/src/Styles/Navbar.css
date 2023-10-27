@@ -1,6 +1,7 @@
 .navbar {
   visibility: hidden;
   text-decoration: none;
+  padding: 1em 0 1em 0;
 }
 
 .navContainer {
@@ -22,22 +23,21 @@ li {
   }
 
   a {
-    color: #ffaf00;
+    color: white;
     display: inline;
     text-decoration: none;
     padding-right: 2.5em;
   }
 
   .navItems {
-    color: #ffaf00;
+    color: white;
   }
 
   .navbar {
-    color: #ffaf00;
+    color: white;
     font-weight: bolder;
-    height: 5%;
     display: flex;
     visibility: visible;
-    font-size: 20px;
+    font-size: 10px;
   }
 }

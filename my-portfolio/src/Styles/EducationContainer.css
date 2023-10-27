@@ -1,0 +1,31 @@
+.educationContainer > div {
+  height: 60vh;
+  border-radius: 10px;
+  background-color: #f1efef;
+  margin-bottom: 10vh;
+  text-align: center;
+  display: grid;
+}
+
+.educationContainer {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0vw 5vw 0vw 5vw;
+}
+
+hr {
+  height: 2px;
+  width: 90%;
+  background-color: darkgray;
+}
+
+@media (min-width: 768px) {
+  .educationContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0vw 5vw 0vw 0;
+  }
+}

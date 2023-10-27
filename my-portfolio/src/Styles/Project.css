@@ -1,3 +1,19 @@
-body {
-  color: brown;
+.projectContainer {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0vw 5vw 0vw 5vw;
+}
+
+.aboutNote {
+  margin-top: 10px;
+  background-color: #f1efef;
+  color: black;
+  border-radius: 10px;
+}
+
+.keyboard {
+  height: 20%;
+  width: 50%;
 }
