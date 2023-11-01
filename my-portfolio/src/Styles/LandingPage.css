@@ -20,6 +20,7 @@ body {
   padding: 0 10vw 0 10vw;
   background-color: white;
   width: 80vw;
+  position: relative;
 }
 
 .navIcon {
@@ -47,6 +48,15 @@ body {
 }
 .name {
   color: black;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+}
+.butterfly {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: 12%;
+  left: 85%;
 }
 
 @media (min-width: 768px) {
@@ -55,6 +65,13 @@ body {
   }
   .name {
     color: black;
+  }
+  .butterfly {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 35%;
+    left: 43%;
   }
   .landingMain {
     background-color: white;
@@ -87,7 +104,15 @@ body {
     border-radius: 50px 180px 50px 180px;
   }
 }
-
+@media (min-width: 700px) {
+  .butterfly {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 26%;
+    left: 42%;
+  }
+}
 @media (min-width: 1045px) {
   .heropic {
     position: absolute;
@@ -97,5 +122,12 @@ body {
     height: 70%;
     width: 70%;
     border-radius: 250px 100px 250px 100px;
+  }
+  .butterfly {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 32%;
+    left: 38%;
   }
 }

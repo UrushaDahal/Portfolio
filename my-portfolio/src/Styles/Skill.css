@@ -1,1 +1,80 @@
+.skillContainer {
+  height: 100vh;
+  position: relative;
+  background-color: #11009e;
+}
 
+.wing {
+}
+
+.htmlIcon {
+  position: absolute;
+  background-color: white;
+  top: 32%;
+  left: 15%;
+  border-radius: 360px;
+  padding: 1em;
+}
+
+.cssIcon {
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  left: 30%;
+  border-radius: 360px;
+  padding: 1em;
+}
+
+.jsIcon {
+  position: absolute;
+  background-color: white;
+  top: 2%;
+  left: 50%;
+  border-radius: 180px;
+  padding: 1em;
+}
+
+.reactIcon {
+  position: absolute;
+  background-color: white;
+  top: 30%;
+  left: 85%;
+  border-radius: 180px;
+  padding: 1em;
+}
+
+.javaIcon {
+  position: absolute;
+  background-color: white;
+  top: 60%;
+  left: 70%;
+  border-radius: 180px;
+  padding: 1em;
+}
+
+.pythonIcon {
+  position: absolute;
+  background-color: white;
+  top: 70%;
+  left: 50%;
+  border-radius: 180px;
+  padding: 1em;
+}
+
+.angularIcon {
+  position: absolute;
+  background-color: white;
+  top: 60%;
+  left: 30%;
+  border-radius: 180px;
+  padding: 1em;
+}
+
+.bootstrapIcon {
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  left: 70%;
+  border-radius: 180px;
+  padding: 1em;
+}
