@@ -1,7 +1,7 @@
 .skillContainer {
   height: 100vh;
   position: relative;
-  background-color: #11009e;
+  background-color: #b6fffa;
 }
 
 .wing {
@@ -14,6 +14,9 @@
   left: 15%;
   border-radius: 360px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0.2, 0.2);
+  transition: ease;
+  transition-duration: 1s;
 }
 
 .cssIcon {
@@ -23,6 +26,7 @@
   left: 30%;
   border-radius: 360px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .jsIcon {
@@ -32,6 +36,7 @@
   left: 50%;
   border-radius: 180px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .reactIcon {
@@ -41,6 +46,7 @@
   left: 85%;
   border-radius: 180px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .javaIcon {
@@ -50,15 +56,17 @@
   left: 70%;
   border-radius: 180px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .pythonIcon {
   position: absolute;
   background-color: white;
-  top: 70%;
+  top: 75%;
   left: 50%;
   border-radius: 180px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .angularIcon {
@@ -68,6 +76,7 @@
   left: 30%;
   border-radius: 180px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .bootstrapIcon {
@@ -77,4 +86,60 @@
   left: 70%;
   border-radius: 180px;
   padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.htmlSkill {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.cssSkill {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.jsSkill {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.angularSkill {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.skillsHeading {
+  color: black;
+}
+
+.skillsBody {
 }
