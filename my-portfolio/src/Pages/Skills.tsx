@@ -55,6 +55,38 @@ export default function Skills() {
     }
   };
 
+  const handleJavaSkill = function showHtml() {
+    if (javaSkillVisible == false) {
+      setJavaSkillVisible(true);
+    } else if (javaSkillVisible == true) {
+      setJavaSkillVisible(false);
+    }
+  };
+
+  const handlePythonSkill = function showHtml() {
+    if (pythonSkillVisible == false) {
+      setPythonSkillVisible(true);
+    } else if (pythonSkillVisible == true) {
+      setPythonSkillVisible(false);
+    }
+  };
+
+  const handleBootstrapSkill = function showHtml() {
+    if (bootstrapSkillVisible == false) {
+      setBootstrapSkillVisible(true);
+    } else if (bootstrapSkillVisible == true) {
+      setBootstrapSkillVisible(false);
+    }
+  };
+
+  const handleReactSkill = function showHtml() {
+    if (reactSkillVisible == false) {
+      setReactSkillVisible(true);
+    } else if (reactSkillVisible == true) {
+      setReactSkillVisible(false);
+    }
+  };
+
   return (
     <div className="skillContainer">
       <div className="wing">
@@ -74,7 +106,12 @@ export default function Skills() {
         />
       </div>
       <div className="wing">
-        <FontAwesomeIcon className="reactIcon" icon={faReact} size="2xl" />
+        <FontAwesomeIcon
+          className="reactIcon"
+          onClick={handleReactSkill}
+          icon={faReact}
+          size="2xl"
+        />
       </div>
       <div className="wing">
         <FontAwesomeIcon
@@ -85,10 +122,20 @@ export default function Skills() {
         />
       </div>
       <div className="wing">
-        <FontAwesomeIcon className="javaIcon" icon={faJava} size="2xl" />
+        <FontAwesomeIcon
+          className="javaIcon"
+          onClick={handleJavaSkill}
+          icon={faJava}
+          size="2xl"
+        />
       </div>
       <div className="wing">
-        <FontAwesomeIcon className="pythonIcon" icon={faPython} size="2xl" />
+        <FontAwesomeIcon
+          className="pythonIcon"
+          onClick={handlePythonSkill}
+          icon={faPython}
+          size="2xl"
+        />
       </div>
       <div className="wing">
         <FontAwesomeIcon
@@ -101,6 +148,7 @@ export default function Skills() {
       <div className="wing">
         <FontAwesomeIcon
           className="bootstrapIcon"
+          onClick={handleBootstrapSkill}
           icon={faBootstrap}
           size="2xl"
         />
@@ -111,10 +159,6 @@ export default function Skills() {
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -122,14 +166,10 @@ export default function Skills() {
       )}
       {cssSkillVisible ? (
         <div className="cssSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">CSS</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -137,14 +177,10 @@ export default function Skills() {
       )}
       {jsSkillVisible ? (
         <div className="jsSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">JavaScript</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -152,14 +188,10 @@ export default function Skills() {
       )}
       {pythonSkillVisible ? (
         <div className="pythonSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">Python</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -167,14 +199,10 @@ export default function Skills() {
       )}
       {bootstrapSkillVisible ? (
         <div className="bootstrapSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">Bootstrap</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -182,14 +210,10 @@ export default function Skills() {
       )}
       {angularSkillVisible ? (
         <div className="angularSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">Angular</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -197,14 +221,10 @@ export default function Skills() {
       )}
       {javaSkillVisible ? (
         <div className="javaSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">Java</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
@@ -212,14 +232,10 @@ export default function Skills() {
       )}
       {reactSkillVisible ? (
         <div className="reactSkill">
-          <h1 className="skillsHeading">HTML</h1>
+          <h1 className="skillsHeading">React</h1>
           <p className="skillsBody">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Consequat interdum varius sit amet mattis vulputate enim nulla.
-            Nulla facilisi etiam dignissim diam quis enim lobortis. Tristique
-            nulla aliquet enim tortor at. Scelerisque eleifend donec pretium
-            vulputate. Platea dictumst quisque sagittis purus.
           </p>
         </div>
       ) : (
