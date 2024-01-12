@@ -1,1 +1,402 @@
+.skillContainer {
+  height: 100vh;
+  position: relative;
+  background-color: #b6fffa;
+}
 
+.htmlIcon {
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 15%;
+  border-radius: 360px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.cssIcon {
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  left: 15%;
+  border-radius: 360px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.jsIcon {
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  left: 60%;
+  border-radius: 180px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.reactIcon {
+  position: absolute;
+  background-color: white;
+  top: 45%;
+  left: 60%;
+  border-radius: 180px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.javaIcon {
+  position: absolute;
+  background-color: white;
+  top: 65%;
+  left: 60%;
+  border-radius: 180px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.pythonIcon {
+  position: absolute;
+  background-color: white;
+  top: 65%;
+  left: 15%;
+  border-radius: 180px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.angularIcon {
+  position: absolute;
+  background-color: white;
+  top: 45%;
+  left: 15%;
+  border-radius: 180px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.bootstrapIcon {
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 60%;
+  border-radius: 180px;
+  padding: 1em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.skillsHeading {
+  display: none;
+}
+.htmlSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 36%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.cssSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 16%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.jsSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 16%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.angularSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 56%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.javaSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 76%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.pythonSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 76%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.reactSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 56%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.bootstrapSkill {
+  height: 80px;
+  width: 350px;
+  position: absolute;
+  top: 36%;
+  left: 8%;
+  border-radius: 180px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.skillsHeading {
+  color: black;
+}
+
+@media (min-width: 1045px) {
+  .skillContainer {
+    height: 100vh;
+    position: relative;
+    background-color: #b6fffa;
+  }
+
+  .htmlIcon {
+    position: absolute;
+    background-color: white;
+    top: 32%;
+    left: 15%;
+    border-radius: 360px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .cssIcon {
+    position: absolute;
+    background-color: white;
+    top: 5%;
+    left: 30%;
+    border-radius: 360px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .jsIcon {
+    position: absolute;
+    background-color: white;
+    top: 2%;
+    left: 50%;
+    border-radius: 180px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .reactIcon {
+    position: absolute;
+    background-color: white;
+    top: 30%;
+    left: 85%;
+    border-radius: 180px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .javaIcon {
+    position: absolute;
+    background-color: white;
+    top: 60%;
+    left: 70%;
+    border-radius: 180px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .pythonIcon {
+    position: absolute;
+    background-color: white;
+    top: 75%;
+    left: 50%;
+    border-radius: 180px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .angularIcon {
+    position: absolute;
+    background-color: white;
+    top: 60%;
+    left: 30%;
+    border-radius: 180px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .bootstrapIcon {
+    position: absolute;
+    background-color: white;
+    top: 5%;
+    left: 70%;
+    border-radius: 180px;
+    padding: 1em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .htmlSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .cssSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .jsSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .angularSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .javaSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .pythonSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .reactSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .bootstrapSkill {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 180px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 25px;
+  }
+
+  .skillsHeading {
+    display: contents;
+    color: black;
+  }
+}
