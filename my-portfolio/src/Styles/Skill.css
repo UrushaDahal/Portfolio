@@ -1,7 +1,7 @@
 .skillContainer {
   height: 100vh;
   position: relative;
-  background-color: #b6fffa;
+  background-color: #f0f0f0;
 }
 
 .htmlIcon {
@@ -200,7 +200,7 @@
   .skillContainer {
     height: 100vh;
     position: relative;
-    background-color: #b6fffa;
+    background-color: #f0f0f0;
   }
 
   .htmlIcon {
