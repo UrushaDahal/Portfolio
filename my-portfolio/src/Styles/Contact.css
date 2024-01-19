@@ -1,3 +1,54 @@
 h1 {
-  color: blue;
+  color: black;
+}
+
+.contactContainer {
+  position: relative;
+  background-color: #f8f9f9;
+  height: 90vh;
+  width: 100vw;
+  background-image: url(../assets/images/Telephone.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.contactInfo {
+  position: absolute;
+  height: 50vh;
+  width: 100vw;
+  top: 35%;
+  left: 0%;
+}
+
+.contactHeading {
+  font-size: 40px;
+}
+
+@media (min-width: 1045px) {
+  h1 {
+    color: black;
+    font-size: xx-large;
+  }
+
+  .contactContainer {
+    position: relative;
+    background-color: #f8f9f9;
+    height: 90vh;
+    background-image: url(../assets/images/Telephone.jpg);
+    background-repeat: no-repeat;
+    background-size: 60vw;
+    border-radius: 10px;
+  }
+
+  .contactInfo {
+    position: absolute;
+    height: 50vh;
+    width: 40vw;
+    top: 24%;
+    left: 51.1%;
+  }
+
+  .contactHeading {
+    font-size: 80px;
+  }
 }

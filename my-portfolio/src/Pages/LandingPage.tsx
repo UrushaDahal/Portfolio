@@ -1,5 +1,6 @@
 import "../Styles/LandingPage.css";
 import HeroPic from "../assets/images/HeroPic.JPG";
+import Butterfly from "../assets/images/Butterfly.svg";
 
 export default function LandingPage() {
   return (
@@ -7,6 +8,7 @@ export default function LandingPage() {
       <div className="landingMain">
         <div className="intro">
           <h3 className="name">Urusha Dahal</h3>
+          <img className="butterfly" src={Butterfly} />
           <h1 className="mainHeading">Software Developer</h1>
           <p>
             "Hi, I am a developer based out of Dallas FortWorth metroplex area.
