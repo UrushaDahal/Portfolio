@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Skill.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import Skill from "../assets/images/Skill.svg";
 import {
   faHtml5,
   faReact,
@@ -89,6 +90,7 @@ export default function Skills() {
 
   return (
     <div className="skillContainer">
+      <img className="skill" src={Skill} />
       <div className="wing">
         <FontAwesomeIcon
           className="htmlIcon"

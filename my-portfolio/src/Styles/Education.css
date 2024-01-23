@@ -35,7 +35,7 @@
   width: 80px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .educationContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -46,6 +46,16 @@
   .educationHeading {
     padding-top: 5vh;
     margin-bottom: 10vh;
+  }
+
+  .gradIcon {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    rotate: 45deg;
+    height: 80px;
+    width: 80px;
   }
 }
 
@@ -60,5 +70,15 @@
   .educationHeading {
     margin-top: 5vh;
     margin-bottom: 10vh;
+  }
+
+  .gradIcon {
+    position: absolute;
+    top: 8%;
+    left: 57%;
+    transform: translateX(-50%) translateY(-50%);
+    rotate: 45deg;
+    height: 80px;
+    width: 80px;
   }
 }

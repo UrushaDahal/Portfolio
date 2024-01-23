@@ -1,6 +1,7 @@
 import "../Styles/LandingPage.css";
 import HeroPic from "../assets/images/HeroPic.JPG";
 import Butterfly from "../assets/images/Butterfly.svg";
+import Developer from "../assets/images/Developer (2).svg";
 
 export default function LandingPage() {
   return (
@@ -18,6 +19,7 @@ export default function LandingPage() {
             create the web of tomorrow. | Turning ideas into interactive
             realities. Welcome to my coding journey!"
           </p>
+          <img className="developer" src={Developer} />
         </div>
         <div className="hero">
           <img className="heropic" src={HeroPic} alt=""></img>

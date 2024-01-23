@@ -1,7 +1,7 @@
 .skillContainer {
   height: 100vh;
   position: relative;
-  background-color: #f0f0f0;
+  background-color: grey;
 }
 
 .htmlIcon {
@@ -197,10 +197,16 @@
 }
 
 @media (min-width: 1045px) {
+  .skill {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 48%;
+    left: 2%;
+  }
   .skillContainer {
     height: 100vh;
     position: relative;
-    background-color: #f0f0f0;
   }
 
   .htmlIcon {

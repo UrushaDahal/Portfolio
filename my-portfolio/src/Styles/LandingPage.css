@@ -103,6 +103,14 @@ body {
     width: 70%;
     border-radius: 50px 180px 50px 180px;
   }
+
+  .developer {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    height: 400px;
+    width: 300px;
+  }
 }
 @media (min-width: 700px) {
   .butterfly {
