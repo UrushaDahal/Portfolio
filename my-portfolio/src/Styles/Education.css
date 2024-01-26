@@ -4,7 +4,8 @@
 }
 
 .educationContainer {
-  color: black;
+  font-family: "Lora", serif;
+  color: #023047;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -12,23 +13,43 @@
 }
 
 .educationContainer > div {
-  height: 60vh;
+  height: 50vh;
   border-radius: 10px;
-  background-color: #f1efef;
-  margin-bottom: 10vh;
+  background-color: #8ecae6;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.educationContainer > p {
+  text-align: left;
+  height: 10px;
+  padding: 0 10px 0 10px;
 }
 
 .educationHeading {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  font-family: "Lora", serif;
   font-size: 50px;
-  color: grey;
-  padding-top: 5vh;
-  margin-bottom: 10vh;
+  color: #ffb703;
+  padding-top: 5px;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+.educationPic {
+  background-color: white;
+  height: 200px;
+  width: 100vw;
+  position: sticky;
+  top: 7%;
 }
 
 .gradIcon {
   position: absolute;
-  top: 3.5%;
-  left: 73%;
+  top: 7%;
+  left: 60%;
   transform: translateX(-50%) translateY(-50%);
   rotate: 45deg;
   height: 80px;
@@ -43,19 +64,43 @@
     padding: 0vw 5vw 0vw 5vw;
   }
 
+  .educationContainer > div {
+    height: 60vh;
+    border-radius: 10px;
+    background-color: #8ecae6;
+    margin-bottom: 20px;
+  }
+
+  .educationContainer > p {
+    text-align: left;
+    height: 5px;
+  }
+
+  .educationContainer > .edTitle {
+    margin: 0;
+  }
+
   .educationHeading {
-    padding-top: 5vh;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
+    height: 10px;
   }
 
   .gradIcon {
     position: absolute;
-    top: 8%;
+    top: 13%;
     left: 60%;
     transform: translateX(-50%) translateY(-50%);
     rotate: 45deg;
     height: 80px;
     width: 80px;
+  }
+
+  .educationPic {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: 7%;
+    left: 35%;
   }
 }
 
@@ -67,18 +112,24 @@
     padding: 0vw 5vw 0vw 5vw;
   }
 
-  .educationHeading {
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+  .educationContainer > div {
+    border-radius: 10px;
+    background-color: #8ecae6;
+    margin-bottom: 5vh;
   }
 
   .gradIcon {
     position: absolute;
     top: 8%;
-    left: 57%;
+    left: 58%;
     transform: translateX(-50%) translateY(-50%);
     rotate: 45deg;
     height: 80px;
     width: 80px;
+  }
+
+  .educationPic {
+    top: 4%;
+    left: 35%;
   }
 }

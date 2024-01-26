@@ -9,7 +9,6 @@ export default function Contact() {
         <img className="contact" src={contact} />
         <h1 className="contactHeading">Contact Me!</h1>
         <h3>URUSHADAHAL1995@GMAIL.COM</h3>
-        <button>Contact</button>
       </div>
     </div>
   );

@@ -90,6 +90,9 @@ export default function Skills() {
 
   return (
     <div className="skillContainer">
+      <div className="skillHeading">
+        <h1>My Skill Sets</h1>
+      </div>
       <img className="skill" src={Skill} />
       <div className="wing">
         <FontAwesomeIcon
