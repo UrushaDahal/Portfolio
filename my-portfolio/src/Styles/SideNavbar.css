@@ -14,6 +14,11 @@ li {
   width: 250px;
   margin-top: 2em;
 }
+
+.closeBtn {
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: white;

@@ -1,5 +1,6 @@
 .projectContainer {
   background-color: white;
+  color: #219ebc;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -8,8 +9,8 @@
 
 .aboutNote {
   margin-top: 10px;
-  background-color: #f1efef;
-  color: black;
+  background-color: white;
+  color: #ffb703;
   border-radius: 10px;
 }
 

@@ -1,54 +1,103 @@
-h1 {
-  color: black;
-}
-
 .contactContainer {
   position: relative;
-  background-color: #f8f9f9;
+  background-color: #219ebc;
   height: 90vh;
   width: 100vw;
   background-image: url(../assets/images/Telephone.jpg);
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-position: bottom;
 }
 
 .contactInfo {
+  font-family: "Lora", serif;
+  color: #219ebc;
+  color: white;
   position: absolute;
-  height: 50vh;
+  height: 20vh;
   width: 100vw;
-  top: 35%;
+  top: 15%;
   left: 0%;
 }
 
 .contactHeading {
+  color: white;
+  font-family: "Lora", serif;
   font-size: 40px;
 }
 
-@media (min-width: 1045px) {
-  h1 {
-    color: black;
-    font-size: xx-large;
-  }
+.contact {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  height: 400px;
+  width: 350px;
+}
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .contactContainer {
     position: relative;
     background-color: #f8f9f9;
     height: 90vh;
     background-image: url(../assets/images/Telephone.jpg);
     background-repeat: no-repeat;
-    background-size: 60vw;
+    background-size: 100vw;
     border-radius: 10px;
+    background-position: bottom;
   }
 
   .contactInfo {
+    color: #219ebc;
     position: absolute;
     height: 50vh;
     width: 40vw;
-    top: 24%;
-    left: 51.1%;
+    top: 15%;
+    left: 30%;
+  }
+  .contact {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    height: 400px;
+    width: 400px;
+  }
+  .contactHeading {
+    color: #219ebc;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1045px) {
+  .contactContainer {
+    position: relative;
+    background-color: #f8f9f9;
+    height: 90vh;
+    background-image: url(../assets/images/Telephone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    border-radius: 10px;
+    background-position: top;
+  }
+
+  .contactInfo {
+    color: #219ebc;
+    position: absolute;
+    height: 50vh;
+    width: 40vw;
+    top: 15%;
+    left: 35.1%;
   }
 
   .contactHeading {
-    font-size: 80px;
+    color: #219ebc;
+    font-size: 40px;
+  }
+
+  .contact {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 500px;
+    width: 500px;
   }
 }

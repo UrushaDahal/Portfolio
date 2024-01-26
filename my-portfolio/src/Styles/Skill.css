@@ -1,7 +1,28 @@
 .skillContainer {
+  color: #ffb703;
   height: 100vh;
   position: relative;
-  background-color: #f0f0f0;
+  background-color: #8ecae6;
+}
+
+.skill {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 30%;
+  left: 25%;
+}
+
+.skillHeading {
+  color: white;
+  position: absolute;
+  top: -2%;
+  left: 28%;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .htmlIcon {
@@ -102,6 +123,7 @@
 
 .skillsHeading {
   display: none;
+  color: #023047;
 }
 .htmlSkill {
   height: 80px;
@@ -193,14 +215,261 @@
 }
 
 .skillsHeading {
-  color: black;
+  color: #023047;
 }
 
+/* Currently Working From Here Down */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .skillContainer {
+    color: #ffb703;
+    height: 100vh;
+    position: relative;
+    background-color: #8ecae6;
+  }
+
+  .skill {
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    top: 30%;
+    left: 40%;
+  }
+
+  .skillHeading {
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .htmlIcon {
+    position: absolute;
+    background-color: white;
+    top: 25%;
+    left: 15%;
+    border-radius: 360px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .cssIcon {
+    position: absolute;
+    background-color: white;
+    top: 5%;
+    left: 15%;
+    border-radius: 360px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .jsIcon {
+    position: absolute;
+    background-color: white;
+    top: 5%;
+    left: 75%;
+    border-radius: 180px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .reactIcon {
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    left: 75%;
+    border-radius: 180px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .javaIcon {
+    position: absolute;
+    background-color: white;
+    top: 65%;
+    left: 75%;
+    border-radius: 180px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .pythonIcon {
+    position: absolute;
+    background-color: white;
+    top: 65%;
+    left: 15%;
+    border-radius: 180px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .angularIcon {
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    left: 15%;
+    border-radius: 180px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .bootstrapIcon {
+    position: absolute;
+    background-color: white;
+    top: 25%;
+    left: 75%;
+    border-radius: 180px;
+    padding: 2em;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    transition: ease;
+    transition-duration: 1s;
+  }
+
+  .skillsHeading {
+    display: none;
+    color: #023047;
+  }
+  .htmlSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .cssSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .jsSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .angularSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .javaSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .pythonSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .reactSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .bootstrapSkill {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .skillsHeading {
+    color: #023047;
+  }
+}
+
+/* Currently Working Till Here Up */
+
 @media (min-width: 1045px) {
+  .skill {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 48%;
+    left: 2%;
+  }
   .skillContainer {
     height: 100vh;
     position: relative;
-    background-color: #f0f0f0;
   }
 
   .htmlIcon {
@@ -303,7 +572,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -315,7 +584,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -327,7 +596,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -339,7 +608,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -351,7 +620,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -363,7 +632,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -375,7 +644,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -387,7 +656,7 @@
     height: 250px;
     width: 500px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
     border-radius: 180px;
     background-color: white;
@@ -397,6 +666,16 @@
 
   .skillsHeading {
     display: contents;
-    color: black;
+    color: #023047;
+  }
+
+  .skillHeading {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 30px;
   }
 }
