@@ -39,8 +39,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border-color: white;
-  border-style: solid;
+
   margin-bottom: 5px;
 }
 
@@ -87,8 +86,8 @@ body {
     position: absolute;
     height: 150px;
     width: 150px;
-    top: 27%;
-    left: 75%;
+    top: 24%;
+    left: 80%;
   }
 
   .intro > p {
@@ -127,12 +126,17 @@ body {
     width: 70%;
   }
 
+  .heropic {
+    height: 200px;
+    width: 200px;
+  }
+
   .developer {
     position: absolute;
-    top: 70%;
-    left: 5%;
-    height: 400px;
-    width: 350px;
+    top: 82%;
+    left: 2%;
+    height: 350px;
+    width: 300px;
   }
 }
 
@@ -149,7 +153,7 @@ body {
 
   .name {
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
   }
 
   .mainHeading {
@@ -165,6 +169,11 @@ body {
     color: #ffaf00;
     border: #ffaf00, solid, thick;
     background-color: #8ecae6;
+  }
+
+  .heropic {
+    height: 300px;
+    width: 300px;
   }
 
   .landingMain {

@@ -162,8 +162,8 @@ export default function Skills() {
         <div className="htmlSkill">
           <h1 className="skillsHeading">HTML</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Proficient in creating structured and semantic markup for web pages,
+            ensuring accessibility and SEO optimization.
           </p>
         </div>
       ) : (
@@ -173,8 +173,9 @@ export default function Skills() {
         <div className="cssSkill">
           <h1 className="skillsHeading">CSS</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Skilled in styling web pages with CSS, including layout design,
+            typography, and responsive techniques to create visually appealing
+            and user-friendly interfaces.
           </p>
         </div>
       ) : (
@@ -184,8 +185,9 @@ export default function Skills() {
         <div className="jsSkill">
           <h1 className="skillsHeading">JavaScript</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Proficient in JavaScript programming language, including DOM
+            manipulation, event handling, and asynchronous programming for
+            interactive web applications.
           </p>
         </div>
       ) : (
@@ -195,8 +197,9 @@ export default function Skills() {
         <div className="pythonSkill">
           <h1 className="skillsHeading">Python</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Skilled in Python programming language, including data manipulation,
+            scripting, and web development using frameworks like Django or
+            Flask.
           </p>
         </div>
       ) : (
@@ -206,8 +209,10 @@ export default function Skills() {
         <div className="bootstrapSkill">
           <h1 className="skillsHeading">Bootstrap</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Proficient in utilizing Bootstrap framework for front-end
+            development, including responsive grid systems, pre-styled
+            components, and CSS utilities for rapid prototyping and design
+            consistency.
           </p>
         </div>
       ) : (
@@ -217,8 +222,9 @@ export default function Skills() {
         <div className="angularSkill">
           <h1 className="skillsHeading">Angular</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Experienced in building single-page applications (SPAs) with Angular
+            framework, including component-based architecture, data binding, and
+            dependency injection.
           </p>
         </div>
       ) : (
@@ -228,8 +234,9 @@ export default function Skills() {
         <div className="javaSkill">
           <h1 className="skillsHeading">Java</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Experienced in Java programming language, including object-oriented
+            principles, data structures, and application development for backend
+            systems.
           </p>
         </div>
       ) : (
@@ -239,8 +246,9 @@ export default function Skills() {
         <div className="reactSkill">
           <h1 className="skillsHeading">React</h1>
           <p className="skillsBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Proficient in building dynamic and responsive user interfaces using
+            React.js library, including state management, component-based
+            architecture, and integration with backend services.
           </p>
         </div>
       ) : (

@@ -18,6 +18,8 @@ li {
 @media (min-width: 768px) {
   .navContainer {
     display: inline;
+    position: sticky;
+    top: 0;
   }
   .navIcon {
     display: none;
@@ -40,5 +42,6 @@ li {
     display: flex;
     visibility: visible;
     font-size: 10px;
+    position: sticky;
   }
 }
