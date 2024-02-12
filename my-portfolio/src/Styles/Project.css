@@ -1,10 +1,19 @@
-.projectContainer {
+.projectsContainer {
+  height: 100vh;
   background-color: white;
-  color: #219ebc;
+  font-family: "Lora", serif;
+  color: #023047;
+}
+
+.projectContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 0vw 5vw 0vw 5vw;
+  gap: 10px;
+  padding: 3vw 5vw 0vw 5vw;
+}
+
+.projectImg {
+  height: 200px;
+  width: 300px;
 }
 
 .aboutNote {
